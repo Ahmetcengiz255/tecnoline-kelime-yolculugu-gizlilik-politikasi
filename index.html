@@ -4,12 +4,15 @@ TECNOLINE Kelime Yolculuğu · Son güncelleme: 29 Ekim 2026
 
 Bu politika, TECNOLINE Kelime Yolculuğu Android uygulamasının verileri nasıl işlediğini açıklar.
 
-Kısa bilgi: Oyunda hesap açma, AdMob/reklam SDK’sı veya analiz SDK’sı bulunmaz. Oyun ilerlemesi ve puanlar cihazınızda saklanır; TECNOLINE sunucularına gönderilmez.
+Kısa bilgi: Uygulama Google AdMob reklamları gösterir. Oyun ilerlemesi ve puanlar cihazınızda saklanır; TECNOLINE sunucularına gönderilmez.
 Hangi veriler işlenir?
-Uygulama; açılan bölüm, tamamlanan bölümler, puan ve oyun ilerlemesi gibi oyun durumunu cihazdaki uygulamaya özel yerel depolamada tutar. Bu bilgiler oyunun ilerlemenizi hatırlaması için kullanılır. Uygulama üzerinden ad, e-posta, kesin konum, rehber, fotoğraf veya ödeme bilgisi istenmez.
+Uygulama; açılan/tamamlanan bölümler, puan ve ayarlar gibi oyun durumunu cihazınızdaki uygulamaya özel depolamada tutar. Uygulama sizden ad, e-posta, kesin konum, rehber, fotoğraf veya ödeme bilgisi istemez. Reklam gösterimi için Google Mobile Ads SDK’sı kullanılmaktadır.
 
 Veriler paylaşılır mı?
-Bu sürümde oyun ilerlemesi TECNOLINE’a veya başka bir şirkete aktarılmaz, satılmaz ya da reklam amacıyla paylaşılmaz. Uygulamaya AdMob eklenmemiştir; reklam gösterimi ve reklam profili oluşturma yapılmaz.
+Google Mobile Ads SDK, reklam sunma, ölçüm ve sahteciliği önleme amaçlarıyla IP adresi (genel konum tahmini için kullanılabilir), reklam/cihaz kimlikleri, uygulama ve reklam etkileşimleri ile tanılama bilgilerini otomatik olarak toplayıp Google ve reklam hizmeti sağlayıcılarıyla paylaşabilir. Google, bu verileri kendi gizlilik ve reklam koşullarına göre işler. Veriler TLS ile aktarılır. Daha fazla bilgi için Google Mobile Ads SDK veri açıklamasına bakın. Oyun ilerlemesi TECNOLINE sunucularına aktarılmaz veya reklam amacıyla paylaşılmaz.
+
+Reklam gizlilik tercihleri
+Gerekli bölgelerde Google'ın UMP onay penceresi reklam gizlilik tercihlerinizi toplar. Bu pencereyi tekrar açma seçeneği uygulama Ayarları'nda, UMP tarafından gerektiği bildirildiğinde gösterilir. Uygulama hedef kitle ve yaş ayarları Google Play Console'da doğru şekilde beyan edilmelidir.
 
 Saklama ve silme
 Oyun ilerlemesi cihazınızda kalır. Android ayarlarından uygulama verilerini temizlediğinizde veya uygulamayı kaldırdığınızda bu yerel kayıtlar silinir. Uygulama verilerinin otomatik yedeklenmesi kapalıdır; bazı üreticilerde cihazdan cihaza aktarım davranışı farklı olabilir. Sunucuda oyun ilerlemesi kopyası tutulmaz.
@@ -18,7 +21,7 @@ Güvenlik
 Yerel oyun kayıtları Android’in uygulama-özel depolama alanında tutulur. Cihazınızın kilidini ve Android güvenlik güncellemelerini korumanız, cihazınızdaki verilerin güvenliği için önemlidir.
 
 Çocukların gizliliği
-Uygulama, kullanıcıdan kişisel bilgi istemez ve oyun ilerlemesini cihaz dışına göndermez. Uygulamanın hedef kitle ayarları Google Play Console’da ayrıca doğru biçimde beyan edilir.
+Uygulama hesap oluşturmaz ve kullanıcıdan doğrudan kişisel bilgi istemez. Reklam SDK'sı verileri Google tarafından işlenebilir. Uygulamanın hedef kitle ve yaş ayarları Google Play Console'da ayrıca doğru biçimde beyan edilir.
 
 Politika değişiklikleri
 Uygulamanın veri işleme şekli değişirse bu politika güncellenir. Özellikle reklam, analiz, çevrimiçi eşitleme veya yeni izinler eklenmeden önce politika ve Google Play beyanları güncellenecektir.
@@ -31,12 +34,15 @@ TECNOLINE Kelime Yolculuğu · Last updated: October 29, 2026
 
 This policy explains how the TECNOLINE Kelime Yolculuğu Android app handles data.
 
-In brief: The game has no account sign-in or AdMob/ad SDK. Game progress and points are stored on your device and are not sent to TECNOLINE servers.
+In brief: The app displays Google AdMob ads. Game progress and points are stored on your device and are not sent to TECNOLINE servers.
 What data is processed?
-The app stores game state such as unlocked levels, completed levels, points, and progress in app-specific local storage on your device. This is used to remember your progress. The app does not ask you to provide your name, email address, precise location, contacts, photos, or payment information.
+The app stores game state such as unlocked/completed levels, points, and settings in app-specific local storage on your device. The app does not ask you to provide your name, email address, precise location, contacts, photos, or payment information. Google Mobile Ads SDK is used to serve ads.
 
 Is data shared?
-In this version, game progress is not transmitted to TECNOLINE or another company, sold, or shared for advertising. AdMob has not been added; the app does not display ads or create advertising profiles.
+The Google Mobile Ads SDK may automatically collect and share IP address (which may be used to estimate general location), advertising/device identifiers, app and ad interactions, and diagnostic information for ad delivery, measurement, and fraud prevention. Google processes this data under its privacy and advertising terms. Data is transmitted using TLS. See Google's Google Mobile Ads SDK data disclosure for details. Game progress is not sent to TECNOLINE servers or shared for advertising.
+
+Advertising privacy choices
+Where required, Google's UMP consent form collects advertising privacy choices. The app shows an option in Settings to reopen that form when UMP indicates it is required. The app's target-audience and age settings must be declared accurately in Google Play Console.
 
 Retention and deletion
 Game progress remains on your device. It is deleted when you clear the app's storage in Android settings or uninstall the app. Automatic app-data backup is disabled; device-to-device transfer behavior may vary by manufacturer. No server-side copy of game progress is kept.
@@ -45,7 +51,7 @@ Security
 Local game records are kept in Android app-specific storage. Protecting your device lock and keeping Android security updates current also helps protect data on your device.
 
 Children's privacy
-The app does not request personal information and does not send game progress off the device. The app's target-audience settings are declared separately and accurately in Google Play Console.
+The app does not create accounts or directly request personal information. Advertising SDK data may be processed by Google. The app's target-audience and age settings are declared separately and accurately in Google Play Console.
 
 Changes to this policy
 This policy will be updated if the app's data practices change. In particular, the policy and Google Play declarations will be updated before adding advertising, analytics, online sync, or new permissions.
